@@ -4,6 +4,7 @@ while True:
     if name == "q":
         break	
     price = input("請輸入價格: ")
+    price = int(price)
     products.append([name,price])
 print(products)
 
