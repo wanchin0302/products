@@ -11,6 +11,6 @@ for p in products: #for loop 搞清楚每個東西是什麼
 	print(p)
 	print(p[0], "的價格是", p[1])
 
-with open("products.csv", "w") as f:
+with open("products.csv", "w") as f:  #可產出CSV檔
 	for p in products:
 		f.write(p[0] + "," + p[1] + "\n")
